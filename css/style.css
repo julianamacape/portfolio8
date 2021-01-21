@@ -423,10 +423,16 @@ html, body {
     .mainhome-content-left .appstores .appiphone {
         background-color: #FEE14E;
         position: relative;
+        z-index: 0;
     }
 
     .mainhome-content-left .appstores .appandroid {
         background-color: #FEE14E;
         position: relative;
+        z-index: 0;
+    }
+
+    .headerhome {
+        z-index: 1;
     }
 }
