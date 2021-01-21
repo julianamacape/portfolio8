@@ -223,6 +223,100 @@ html, body {
     display: none;
 }
 
+/*
+    AQUI encerra a section "como funciona"
+    AQUI inicia a div "yellow wave up"
+*/
+
+.yellowwaveup {
+    background-image: url('../images/wavesup.png');
+    width: 100%;
+    height: 180px;
+    background-position: top center;
+}
+
+/*
+    AQUI encerra a div "yellow wave up"
+    AQUI inicia a section "diferenciais"
+*/
+
+.diferenciais {
+    background-color: #FCE05A;
+}
+
+.diferenciais-center {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 50px 2%;
+}
+
+.diferenciais-center h1 {
+    text-align: center;
+    color: #5A4A42;
+    font-size: 32px;
+    margin-bottom: 100px;
+}
+
+.diferenciais-center-item {
+    margin: 20px;
+    display: inline-block;
+}
+
+.diferenciais-center-item-wrap {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.diferenciais-center-item-img {
+    width: 40px;
+    
+    height: inherit;
+    margin-right: 20px;
+}
+
+.diferenciais-center-item-img img {
+    width: 100%;
+}
+
+.diferenciais-center-item-text {
+    width: 200px;
+    
+}
+
+.diferenciais-center-item-text p {
+    color: #7A7A7A;
+    font-size: 15px;
+}
+
+.diferenciais2-center {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px 2%;
+}
+/*
+    AQUI encerra a section "diferenciais"
+    AQUI inicia a div "yellow wave down"
+*/
+
+.yellowwavedown {
+    background-image: url('../images/wavesdown.png');
+    width: 100%;
+    height: 180px;
+    background-position: top center;
+}
+
+@media screen and (max-width: 1269px) {
+    .diferenciais-center {
+        padding-bottom: 0px;
+    }
+
+    .diferenciais2-center {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .mainhome-content-left .appiphone {
         margin-left: 20px;
