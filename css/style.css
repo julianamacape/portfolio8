@@ -66,6 +66,11 @@ html, body {
     outline: none;
 }
 
+/*
+    AQUI encerra o header
+    AQUI inicia o main
+*/
+
 .mainhome {
     background-color: #FEE14E;
     padding-top: 120px;
@@ -129,6 +134,92 @@ html, body {
 }
 
 .mainhome-banner .labrador {
+    display: none;
+}
+
+/*
+    AQUI encerra o main
+    AQUI inicia a section "como funciona"
+*/
+
+.comofunciona-center {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 100px;
+}
+
+.comofunciona-center-left {
+    width: 30%;
+}
+
+.comofunciona-center-left h1 {
+    color: #5A4A42;
+    font-size: 32px;
+}
+
+.comofunciona-center-right {
+    width: 70%;
+    display: flex;
+}
+
+.comofunciona-center-right-text {
+    display: inline-block;
+    max-width: 50%;
+}
+
+.comofunciona-center-right-text h1 {
+    color: #FDE05B;
+    font-size: 36px;
+    margin-bottom: 10px;
+    padding: 2%;
+}
+
+.comofunciona-center-right-text p {
+    color: #7A7A7A;
+    font-size: 14px;
+    margin-bottom: 50px;
+    padding: 2%;
+}
+
+.comofunciona-center-bottom {
+    max-width: 1100px;
+    margin: 30px auto 50px auto;
+    text-align: center;
+}
+
+.comofunciona-center-bottom .appstores p {
+    color: #7A7A7A;
+    margin-bottom: 5px;
+}
+
+.comofunciona-center-bottom .appstores .appiphone {
+    border: 1px solid #5A4A42;
+    max-width: 150px;
+    border-radius: 75px;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.comofunciona-center-bottom .appstores .appiphone img {
+    width: 100%;
+    padding: 5px 15px;
+}
+
+.comofunciona-center-bottom .appstores .appandroid {
+    border: 1px solid #5A4A42;
+    max-width: 150px;
+    border-radius: 75px;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.comofunciona-center-bottom .appstores .appandroid img {
+    width: 100%;
+    padding: 8px 15px;
+}
+
+.comofunciona2-center {
     display: none;
 }
 
@@ -238,11 +329,104 @@ html, body {
     .mainhome-content-left-wrap {
         margin: 0px auto 80px auto;
     }
+
+    .comofunciona-center {
+        display: block;
+        padding: 50px 3% 20px 3%;
+    }
+
+    .comofunciona-center-right {
+        width: 100%;
+        display: flex;
+        margin: 40px auto 0 auto;
+    }
+
+    .comofunciona-center-bottom {
+        margin: 0px auto 50px auto;
+    }
+
+    .comofunciona-center-bottom .appstores p {
+        display: block !important;
+    }
+    
+    .comofunciona-center-bottom .appstores .appiphone {
+        display: inline-block;
+        margin: 10px 2%;    
+    }
+
+    .comofunciona-center-bottom .appstores .appandroid {
+        display: inline-block;
+        margin: 10px auto;
+    }
 }
 
 @media screen and (max-width: 570px) {
     .mainhome-banner .labrador {
         margin: -340px 0 0 148px;
         width: 300px;
+    }
+}
+
+@media screen and (max-width: 499px) {
+
+    .comofunciona-center {
+        display: none;
+    }
+
+    .comofunciona2-center {
+        display: block;
+        padding: 50px 3% 20px 3%;
+        max-width: 1100px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .comofunciona2-center-left {
+        width: 30%;
+    }
+
+    .comofunciona2-center-left h1 {
+        color: #5A4A42;
+        font-size: 32px;
+    }
+
+    .comofunciona2-center-right {
+        width: 100%;
+        display: block;
+        margin: 40px auto 0 auto;
+    }
+
+    .comofunciona2-center-right-text {
+        display: block;
+        max-width: 100%;
+    }
+    
+    .comofunciona2-center-right-text h1 {
+        color: #FDE05B;
+        font-size: 36px;
+        margin-bottom: 10px;
+        padding: 2%;
+    }
+
+    .comofunciona2-center-right-text p {
+        color: #7A7A7A;
+        font-size: 14px;
+        margin-bottom: 10px;
+        padding: 2%;
+    }
+    
+    .mainhome-banner .labrador {
+        margin: -363px 0px 0 89px;
+        width: 400px;
+    }
+
+    .mainhome-content-left .appstores .appiphone {
+        background-color: #FEE14E;
+        position: relative;
+    }
+
+    .mainhome-content-left .appstores .appandroid {
+        background-color: #FEE14E;
+        position: relative;
     }
 }
