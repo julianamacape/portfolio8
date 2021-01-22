@@ -322,7 +322,7 @@ html, body {
 .contrate-center {
     max-width: 1000px;
     display: flex;
-    margin: 150px auto;
+    margin: 150px auto 50px auto;
     padding: 10px;
     align-items: center;
 }
@@ -399,6 +399,56 @@ html, body {
     left: 0;
     transform: translate(-50%, -50%);
     z-index: 0;
+}
+
+/*
+    AQUI encerra a section "contrate"
+    AQUI inicia a section "coberturas"
+*/
+
+.coberturas-center {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.coberturas-center h1 {
+    text-align: center;
+    color: #5A4A42;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.coberturas-center-flex {
+    width: 100%;
+}
+
+.coberturas-center-flex-item {
+    width: 100%;
+}
+
+.coberturas-center-flex-item-single {
+    width: Calc(100% / 6);
+    display: inline-block;
+    padding: 5px;
+    vertical-align: top;
+    margin-right: -4px;
+    
+}
+
+.coberturas-center-flex-item:nth-of-type(2) {
+    margin-top: 60px;
+}
+
+.coberturas-center-flex-item-single-img img {
+    display: block;
+    margin: 0 auto;
+}
+
+.coberturas-center-flex-item-single-text p {
+    color: #7A7A7A;
+    font: 14px;
+    padding-top: 15px;
+    text-align: center;
 }
 
 @media screen and (max-width: 1269px) {
@@ -610,6 +660,24 @@ html, body {
         left: 0;
         transform: translate(-50%, -50%);
         z-index: 0;
+    }
+
+    .coberturas-center-flex {
+        display: flex;
+    }
+
+    .coberturas-center-flex-item {
+        width: 50%;
+    }
+
+    .coberturas-center-flex-item-single {
+        display: block;
+        width: 74%;
+        margin: 40px auto;
+    }
+
+    .coberturas-center-flex-item:nth-of-type(2) {
+        margin-top: 0;
     }
 }
 
