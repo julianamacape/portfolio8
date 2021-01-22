@@ -381,14 +381,15 @@ html, body {
 }
 
 .contrate-center-right-wrap {
-    width: 50%;
+    width: 43%;
     background-image: url('../images/cat.jpg');
     background-position: bottom center;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 600px;
+    background-size: contain;
+    height: 0;
     position: relative;
     z-index: 1;
+    padding-bottom: 64%;
 }
 
 .contrate-center-right-wrap img {
@@ -549,6 +550,66 @@ html, body {
 
     .diferenciais-center {
         padding-top: 0px;
+    }
+
+    .contrate-center {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .contrate-center-left-wrap {
+        width: 100%;
+    }
+
+    .contrate-center-left h1:nth-child(1) {
+        max-width: 1000px;
+        text-align: center;
+        margin-top: 30px !important;
+    }
+
+    .contrate-center-left h1:nth-of-type(2) {
+        font-size: 40px;
+    }
+
+    .contrate-center-left .appstores {
+        margin: 20px auto;
+    }
+
+    .contrate-center-left .appstores {
+        width: unset;
+    }
+
+    .contrate-center-left .appstores .appiphone {
+        margin: 10px 10px;
+    }
+
+    .contrate-center-left .appstores .appandroid {
+        margin: 10px 10px;
+    }
+
+    .contrate-center-left .appstores {
+        text-align: center;
+    }
+
+    .contrate-center-left .appstores p {
+        display: block !important;
+        text-align: center;
+    }
+
+    .contrate-center-right-wrap {
+        width: 65%;
+        margin: 0 auto;
+        background-size: contain;
+        padding-bottom: 95%;
+    }
+
+    .contrate-center-right-wrap img {
+        width: 90px;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(-50%, -50%);
+        z-index: 0;
     }
 }
 
