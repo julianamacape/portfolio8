@@ -22,6 +22,7 @@ html, body {
     padding: 30px 40px;
     width: 100%;
     position: fixed;
+    z-index: 2;
 }
 
 .headerhome-logo {
@@ -231,7 +232,7 @@ html, body {
 .yellowwaveup {
     background-image: url('../images/wavesup.png');
     width: 100%;
-    height: 180px;
+    height: 140px;
     background-position: top center;
 }
 
@@ -302,8 +303,101 @@ html, body {
 .yellowwavedown {
     background-image: url('../images/wavesdown.png');
     width: 100%;
-    height: 180px;
+    height: 142px;
     background-position: top center;
+}
+
+/*
+    AQUI encerra a div "yellow wave down"
+    AQUI inicia a section "contrate"
+*/
+
+.contrate-overlay {
+    background-image: url('../images/yellowball.png');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: -25% 80%;
+}
+
+.contrate-center {
+    max-width: 1000px;
+    display: flex;
+    margin: 150px auto;
+    padding: 10px;
+    align-items: center;
+}
+
+.contrate-center-left-wrap {
+    width: 50%;
+    
+}
+
+.contrate-center-left {
+    width: 100%;
+    padding: 1%;
+    display: inline-block;
+}
+
+.contrate-center-left h1 {
+    font-size: 32px;
+    max-width: 290px;
+    font-weight: 600;
+    color: #5A4A42;
+    margin-bottom: 30px;
+}
+
+.contrate-center-left p {
+    color: #3C3C3C;
+    margin-bottom: 5px;
+}
+
+.contrate-center-left .appstores {
+    margin-top: 100px;
+}
+.contrate-center-left .appiphone {
+    border: 1px solid #5A4A42;
+    max-width: 100px;
+    border-radius: 75px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.contrate-center-left .appiphone img {
+    width: 100%;
+    padding: 5px 15px;
+}
+
+.contrate-center-left .appandroid {
+    border: 1px solid #5A4A42;
+    max-width: 100px;
+    border-radius: 75px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.contrate-center-left .appandroid img {
+    width: 100%;
+    padding: 8px 15px;
+}
+
+.contrate-center-right-wrap {
+    width: 50%;
+    background-image: url('../images/cat.jpg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+    z-index: 1;
+}
+
+.contrate-center-right-wrap img {
+    width: 150px;
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    z-index: 0;
 }
 
 @media screen and (max-width: 1269px) {
@@ -452,6 +546,10 @@ html, body {
         display: inline-block;
         margin: 10px auto;
     }
+
+    .diferenciais-center {
+        padding-top: 0px;
+    }
 }
 
 @media screen and (max-width: 570px) {
@@ -517,17 +615,17 @@ html, body {
     .mainhome-content-left .appstores .appiphone {
         background-color: #FEE14E;
         position: relative;
-        z-index: 0;
+        z-index: 1;
     }
 
     .mainhome-content-left .appstores .appandroid {
         background-color: #FEE14E;
         position: relative;
-        z-index: 0;
+        z-index: 1;
     }
 
     .headerhome {
-        z-index: 1;
+        z-index: 2;
     }
 }
 
