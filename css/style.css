@@ -600,6 +600,18 @@ button:focus {
 .footerhome .socialmedia-ig img {
     width: 100%;
 }
+
+/*
+    AQUI encerra a section "footerhome"
+    AQUI inicia a div "pagebottom"
+*/
+
+.pagebottom {
+    width: 100%;
+    background-color: #5A4A42;
+    height: 50px;
+}
+
 @media screen and (max-width: 1269px) {
     .diferenciais-center {
         padding-bottom: 0px;
@@ -650,7 +662,7 @@ button:focus {
 
     .footerhome .socialmedia {
         max-width: 88px;
-        margin: 20px auto;
+        margin: 20px auto 0 auto;
     }
 
     .footerhome .socialmedia-fb {
