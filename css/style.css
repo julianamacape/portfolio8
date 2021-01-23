@@ -612,6 +612,11 @@ button:focus {
     height: 50px;
 }
 
+.pagebottom p {
+    color: #5A4A42;
+    padding-top: 20px;
+}
+
 @media screen and (max-width: 1269px) {
     .diferenciais-center {
         padding-bottom: 0px;
