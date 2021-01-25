@@ -35,12 +35,16 @@ button:focus {
 
 .headerhome-logo {
     width: 200px;
-    height: 50px;
+    height: 40px;
     background-image: url('../images/zoalogo.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
     float: left;
+}
+
+.headerhome-logo img {
+    width: 100%;
 }
 
 .menuhome {
@@ -76,6 +80,7 @@ button:focus {
 }
 
 /*
+    Página HOME
     AQUI encerra o header
     AQUI inicia o main
 */
@@ -147,6 +152,7 @@ button:focus {
 }
 
 /*
+    Página HOME
     AQUI encerra o main
     AQUI inicia a section "como funciona"
 */
@@ -233,6 +239,7 @@ button:focus {
 }
 
 /*
+    Página HOME
     AQUI encerra a section "como funciona"
     AQUI inicia a div "yellow wave up"
 */
@@ -245,6 +252,7 @@ button:focus {
 }
 
 /*
+    Página HOME
     AQUI encerra a div "yellow wave up"
     AQUI inicia a section "diferenciais"
 */
@@ -303,7 +311,8 @@ button:focus {
     margin: 0 auto;
     padding: 40px 2%;
 }
-/*
+/*  
+    Página HOME
     AQUI encerra a section "diferenciais"
     AQUI inicia a div "yellow wave down"
 */
@@ -316,6 +325,7 @@ button:focus {
 }
 
 /*
+    Página HOME
     AQUI encerra a div "yellow wave down"
     AQUI inicia a section "contrate"
 */
@@ -410,6 +420,7 @@ button:focus {
 }
 
 /*
+    Página HOME
     AQUI encerra a section "contrate"
     AQUI inicia a section "coberturas"
 */
@@ -460,6 +471,7 @@ button:focus {
 }
 
 /*
+    Página HOME
     AQUI encerra a section "coberturas"
     AQUI inicia a div "yellowwaveup"
 */
@@ -467,6 +479,7 @@ button:focus {
 /* Código replicado */
 
 /*
+    Página HOME
     AQUI encerra a div "yellowwaveup"
     AQUI inicia a section "facaparte"
 */
@@ -501,6 +514,7 @@ button:focus {
 }
 
 /*
+    Página HOME
     AQUI encerra a section "facaparte"
     AQUI inicia a div "brownwaveup"
 */
@@ -513,6 +527,7 @@ button:focus {
 }
 
 /*
+    Página HOME
     AQUI encerra a div "brownwaveup"
     AQUI inicia a section "footerhome"
 */
@@ -602,6 +617,7 @@ button:focus {
 }
 
 /*
+    Página HOME
     AQUI encerra a section "footerhome"
     AQUI inicia a div "pagebottom"
 */
@@ -615,6 +631,22 @@ button:focus {
 .pagebottom p {
     color: #5A4A42;
     padding-top: 20px;
+}
+
+
+/*
+    
+    AQUI encerra a Página HOME
+    AQUI inicia a Página QUEM SOMOS
+
+*/
+
+.headerquemsomos {
+    background-color: white;
+    padding: 30px 40px;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
 }
 
 @media screen and (max-width: 1269px) {
