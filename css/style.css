@@ -597,6 +597,9 @@ button:focus {
     padding: 8px 15px 6px 15px;
 }
 
+.footerhome2-nav .appstores .appwrap {
+    display: inline-block;
+}
 
 .footerhome .socialmedia-fb {
     max-width: 30px;
@@ -617,6 +620,7 @@ button:focus {
 .footerhome .socialmedia-ig img {
     width: 100%;
 }
+
 
 /*
     Página HOME
@@ -975,6 +979,10 @@ button:focus {
 
     .footerhome .socialmedia-fb {
         margin-left: 0;
+    }
+
+    .footerhome2-nav .appstores .appwrap {
+        display: block;
     }
 }
 
