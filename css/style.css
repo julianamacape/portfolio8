@@ -535,6 +535,8 @@ button:focus {
 .footerhome {
     background-color: #5A4A42;
     padding-top: 40px;
+    position: relative;
+    z-index: 2;
 }
 
 .footerhome-nav {
@@ -649,6 +651,107 @@ button:focus {
     z-index: 2;
 }
 
+.mainquemsomos-center {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top: 180px;
+    overflow: hidden;
+}
+
+.mainquemsomos-center-content {
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.mainquemsomos-center-content img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+}
+
+.mainquemsomos-center h1 {
+    font-weight: 600;
+    color: #5A4A42;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.mainquemsomos-center p {
+    color: #7A7A7A;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 10px;
+}
+
+.missao-flex {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto 80px auto;
+}
+
+.missao-flex01 {
+    width: 50%;
+    background-image: url('../images/cat.jpg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 0;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 45%;
+}
+
+.missao-flex01 img {
+    width: 100px;
+    position: absolute;
+    top: 100%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.missao-flex02 {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.missao-flex02-single-wrap {
+    display: flex;
+    color: #5A4A42;
+}
+
+.missao-flex02-single-wrap-icon {
+    background-image: url('../images/missao.png');
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: top center;
+}
+
+._02 {
+    background-image: url('../images/valores.png');
+}
+
+._03 {
+    background-image: url('../images/visao.png');
+}
+.missao-flex02-single-wrap-text  {
+    width: 800px
+}
+
+.missao-flex02-single-wrap-text  p{
+    margin: 20px 0 40px 0;
+    line-height: 25px;
+    color: #7A7A7A;
+    font-size: 14px;
+}
+
+
 @media screen and (max-width: 1269px) {
     .diferenciais-center {
         padding-bottom: 0px;
@@ -724,6 +827,10 @@ button:focus {
         padding: 0;
     }
 
+    .headerquemsomos {
+        padding: 0;
+    }
+
     .headerhome-logo {
         margin: 15px 0 15px 15px;
     }
@@ -748,6 +855,10 @@ button:focus {
     }
 
     .headerhome .menuhome {
+        display: none;
+    }
+
+    .headerquemsomos .menuhome {
         display: none;
     }
 
@@ -924,6 +1035,36 @@ button:focus {
 
     .coberturas-center-flex-item:nth-of-type(2) {
         margin-top: 0;
+    }
+
+    .mainquemsomos-center {
+        padding-top: 100px;
+    }
+
+    .mainquemsomos-center-content img {
+        display: none;
+    }
+
+    .mainquemsomos-center-content {
+        padding-bottom: 25px;
+    }
+
+    .missao-flex {
+        display: block;
+    }
+
+    .missao-flex01 {
+        width: 60%;
+        margin: 0 auto 50px auto;
+        padding-bottom: 90%;
+    }
+
+    .missao-flex01 img {
+        display: none;
+    }
+
+    .missao-flex02 {
+        margin: 0 auto 50px auto;
     }
 }
 
